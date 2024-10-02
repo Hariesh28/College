@@ -1,0 +1,34 @@
+1234
+John Doe
+25
+M
+2000
+Mumbai
+
+5678
+Jane Smith
+30
+F
+1998
+Delhi
+
+9876
+Bob Johnson
+22
+M
+1995
+Bangalore
+
+5432
+Alice Brown
+28
+F
+2005
+Chennai
+
+8765
+Charlie Davis
+35
+M
+2012
+Hyderabad

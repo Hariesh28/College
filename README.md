@@ -1,0 +1,2 @@
+# College
+ This repository contains all the files, assignments, and projects I’ve developed throughout my college journey. It includes projects related to data structures, algorithms, machine learning, artificial intelligence, and various other coursework. Each project is well-documented and showcases the skills and concepts I've learned during my studies at Shiv Nadar University Chennai. This serves as a comprehensive collection of my academic work and hands-on learning experiences in the field of Artificial Intelligence and Data Science.
