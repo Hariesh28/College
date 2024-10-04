@@ -1,5 +1,5 @@
 /*
-    A PROGRAM TO IMPLEMENT FIRST COME FIRST SERVE SCHEDULING ALGORITHM
+    A PROGRAM TO IMPLEMENT ROUND ROBIN SCHEDULING ALGORITHM
 
     If the command-line argument "detailed" is passed while running the program,
     the execution will provide a step-by-step explanation with detailed information
@@ -20,6 +20,7 @@
 #define or ||
 
 #define INITIAL_QUEUE_SIZE 1
+#define TIME_QUANTUM 2
 
 #define DISPLAY_SIZE 2  // Adjust this value to modify the width of the Gantt chart display.
 /*
@@ -421,6 +422,8 @@ int main (int argc, char *argv[]){
     gantt_chart_node *head = NULL;
     gantt_chart_node *tail = NULL;
 
+    int time_quantum_remaining;
+
     printf("\nStarting CPU Execution\n");
 
     // CPU Execution Loop:
@@ -441,9 +444,19 @@ int main (int argc, char *argv[]){
             }
         }
 
+        // Context Switch If Time Quantum has Expired
+        if (current_process and time_quantum_remaining == 0) {
+
+            enqueue(&ready_queue, current_process);
+            current_process = NULL;
+        }
+
         // Update Current Process
-        if (!current_process)
+        if (!current_process){
+
             current_process = dequeue(&ready_queue);
+            time_quantum_remaining = TIME_QUANTUM;
+        }
 
         // Stop CPU if all the programs are executed
         if (isEmpty(&ready_queue) and !current_process){
@@ -458,6 +471,7 @@ int main (int argc, char *argv[]){
 
             current_process->remaining_time--;
             current_process->turnaround_time++;
+            time_quantum_remaining--;
 
             if (!current_process->executed_once)
                 current_process->executed_once = true;
