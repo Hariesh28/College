@@ -1,0 +1,175 @@
+
+
+NULL values filled by: mean
+
+
+
+No Outliers Removed:
+
+OLS Model: 
+Mean Absolute Error (MAE): 246.84354651674604
+Mean Squared Error (MSE): 124847.6947157142
+Root Mean Squared Error (RMSE): 353.3379327438737
+R^2 Score: 0.3368958572786389x
+Ridge Model: 
+Mean Absolute Error (MAE): 243.57505392286205
+Mean Squared Error (MSE): 121068.73102346844
+Root Mean Squared Error (RMSE): 347.9493224931879
+R^2 Score: 0.35696708474685723x
+Lasso Model: 
+Mean Absolute Error (MAE): 246.42059251546945
+Mean Squared Error (MSE): 124363.62773653337
+Root Mean Squared Error (RMSE): 352.65227595541387
+R^2 Score: 0.3394668844808659x
+
+Outliers Removed based on IQR:
+
+OLS Model: 
+Mean Absolute Error (MAE): 197.4484702779496
+Mean Squared Error (MSE): 57094.47081497316
+Root Mean Squared Error (RMSE): 238.94449316729012
+R^2 Score: 0.4174520665486279x
+Ridge Model: 
+Mean Absolute Error (MAE): 194.1161204030773
+Mean Squared Error (MSE): 57302.11176068703
+Root Mean Squared Error (RMSE): 239.3785950344914
+R^2 Score: 0.4153334585275902x
+Lasso Model: 
+Mean Absolute Error (MAE): 197.2012535898418
+Mean Squared Error (MSE): 57211.706080603835
+Root Mean Squared Error (RMSE): 239.18968640098979
+R^2 Score: 0.4162558883417732x
+
+Outliers Removed based on Z-Score:
+
+OLS Model: 
+Mean Absolute Error (MAE): 174.25483706378995
+Mean Squared Error (MSE): 50873.47248576189
+Root Mean Squared Error (RMSE): 225.5514852218045
+R^2 Score: 0.1317084011932349x
+Ridge Model: 
+Mean Absolute Error (MAE): 172.09859374556694
+Mean Squared Error (MSE): 48254.368328003125
+Root Mean Squared Error (RMSE): 219.66876957820637
+R^2 Score: 0.17641040452548784x
+Lasso Model: 
+Mean Absolute Error (MAE): 172.99644566089958
+Mean Squared Error (MSE): 50311.78896666855
+Root Mean Squared Error (RMSE): 224.3028955824435
+R^2 Score: 0.14129502968519536x
+
+NULL values filled by: most_frequent
+
+
+
+No Outliers Removed:
+
+OLS Model: 
+Mean Absolute Error (MAE): 266.3622773750855
+Mean Squared Error (MSE): 127646.80882867641
+Root Mean Squared Error (RMSE): 357.27693576366835
+R^2 Score: 0.33701421840088763x
+Ridge Model: 
+Mean Absolute Error (MAE): 263.9377480759486
+Mean Squared Error (MSE): 125546.38261737915
+Root Mean Squared Error (RMSE): 354.3252497598487
+R^2 Score: 0.3479236389039667x
+Lasso Model: 
+Mean Absolute Error (MAE): 266.0917945904667
+Mean Squared Error (MSE): 127345.36908915867
+Root Mean Squared Error (RMSE): 356.85482915207785
+R^2 Score: 0.3385798686756033x
+
+Outliers Removed based on IQR:
+
+OLS Model: 
+Mean Absolute Error (MAE): 243.29689595010674
+Mean Squared Error (MSE): 83120.17250142827
+Root Mean Squared Error (RMSE): 288.30569280093704
+R^2 Score: 0.24110661027095637x
+Ridge Model: 
+Mean Absolute Error (MAE): 239.0902434212574
+Mean Squared Error (MSE): 81609.4837452268
+Root Mean Squared Error (RMSE): 285.6737365338767
+R^2 Score: 0.25489931156737866x
+Lasso Model: 
+Mean Absolute Error (MAE): 242.20673294051704
+Mean Squared Error (MSE): 82594.80605932533
+Root Mean Squared Error (RMSE): 287.3931211064825
+R^2 Score: 0.24590324516834583x
+
+Outliers Removed based on Z-Score:
+
+OLS Model: 
+Mean Absolute Error (MAE): 199.92079953198632
+Mean Squared Error (MSE): 57119.992313462855
+Root Mean Squared Error (RMSE): 238.99789185987154
+R^2 Score: 0.2173833784468887x
+Ridge Model: 
+Mean Absolute Error (MAE): 194.8022616260102
+Mean Squared Error (MSE): 54528.1520555875
+Root Mean Squared Error (RMSE): 233.51263789265775
+R^2 Score: 0.2528948899872302x
+Lasso Model: 
+Mean Absolute Error (MAE): 198.91090610455433
+Mean Squared Error (MSE): 56613.788787345075
+Root Mean Squared Error (RMSE): 237.93652260076652
+R^2 Score: 0.2243190112679596x
+
+NULL values filled by: median
+
+
+
+No Outliers Removed:
+
+OLS Model: 
+Mean Absolute Error (MAE): 240.1547335831872
+Mean Squared Error (MSE): 129139.98578201648
+Root Mean Squared Error (RMSE): 359.36052340514044
+R^2 Score: 0.32797323686701274x
+Ridge Model: 
+Mean Absolute Error (MAE): 236.93074745710598
+Mean Squared Error (MSE): 124474.29985501601
+Root Mean Squared Error (RMSE): 352.80915500453784
+R^2 Score: 0.3522528261230454x
+Lasso Model: 
+Mean Absolute Error (MAE): 239.64085718979504
+Mean Squared Error (MSE): 128562.93178249123
+Root Mean Squared Error (RMSE): 358.5567343984648
+R^2 Score: 0.3309761466869695x
+
+Outliers Removed based on IQR:
+
+OLS Model: 
+Mean Absolute Error (MAE): 175.85770740421037
+Mean Squared Error (MSE): 50078.21094876367
+Root Mean Squared Error (RMSE): 223.78161441182712
+R^2 Score: 0.4885003348538637x
+Ridge Model: 
+Mean Absolute Error (MAE): 175.81204174208216
+Mean Squared Error (MSE): 50869.04875609179
+Root Mean Squared Error (RMSE): 225.54167853434936
+R^2 Score: 0.4804227045637739x
+Lasso Model: 
+Mean Absolute Error (MAE): 175.9524073180372
+Mean Squared Error (MSE): 50332.77782882182
+Root Mean Squared Error (RMSE): 224.34967757681716
+R^2 Score: 0.48590018458011974x
+
+Outliers Removed based on Z-Score:
+
+OLS Model: 
+Mean Absolute Error (MAE): 171.09636114014052
+Mean Squared Error (MSE): 52846.05134437298
+Root Mean Squared Error (RMSE): 229.8826903974568
+R^2 Score: 0.055045991501452285x
+Ridge Model: 
+Mean Absolute Error (MAE): 168.0887991773371
+Mean Squared Error (MSE): 50198.151462235764
+Root Mean Squared Error (RMSE): 224.04943977219796
+R^2 Score: 0.1023937789723286x
+Lasso Model: 
+Mean Absolute Error (MAE): 170.06022941019148
+Mean Squared Error (MSE): 52286.00447670521
+Root Mean Squared Error (RMSE): 228.6613313979983
+R^2 Score: 0.06506033541337575x
