@@ -1,0 +1,4 @@
+Create a folder containing a 5 text files. Each text file should contain a list of preferred usernames. Check if each of the user names are valid (contain only alphabets, digits, ‘_’, ‘-’, ‘.’). If a username is invalid remove the invalid characters from it. Add the domain name, ‘snuchennai.edu.in’, to all the usernames and create email addresses. Write these email addresses into new files in a different folder.
+•Obtain the input and output folders as command-line arguments. Exit the program if the number of arguments is incorrect.
+•If the input folder does not exist or if it does not contain 5 files, print an error message and exit the program.
+•If the output folder does not exist, create one. If the output folder exists and contains some files, ask the user if the contents of the folder can be deleted. If the user responds with a ‘yes’, delete the contents and proceed. If the user responds with a ‘no’, exit the program.
